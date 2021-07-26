@@ -1,0 +1,16 @@
+Package: exeteraR
+Type: Package
+Title: The R interface to ExeTera
+Version: 0.1.0
+Author: Jie Deng, KCL
+Maintainer: Jie Deng <jie.1.deng@kcl.ac.uk>
+Description: ExeTera (https://github.com/KCL-BMEIS/ExeTera) is a reproducible analysis pipelines for large tabular datasets that written in Python. For whom want to use ExeTera in R environment, this package utilize reticulate to enable calling ExeTera from R.  
+License: Apache License 2.0
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.1
+Imports:
+    reticulate
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
